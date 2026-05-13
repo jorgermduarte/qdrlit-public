@@ -1,0 +1,3 @@
+# Explicitly exclude volumes (even if whitelisted above)
+volumes/
+**/volumes/*

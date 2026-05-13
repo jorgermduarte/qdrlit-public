@@ -1,0 +1,30 @@
+# python
+.coverage
+*/__pycache__
+venv
+
+volumes/**
+**/__pycache__/**
+
+# idea
+.idea/
+*.iml
+
+# files
+*.tmp
+*.csv
+*.json
+*.xml
+*.zip
+*.log
+*.png
+*.jpg
+*.svg
+
+# data folder
+data/*
+!data/.gitkeep
+
+# tpch
+dbgen
+db_env/tpch/tpch_tools
